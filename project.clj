@@ -16,7 +16,11 @@
                          [org.clojure/tools.nrepl "0.2.6"]
                          [org.clojure/tools.macro "0.1.5"]
                          [org.clojure/java.jmx "0.3.1"]
+                         [org.clojure/java.jdbc "0.6.1"]
                          [org.clojure/core.async "0.2.391"]
+                         [org.clojure/core.cache "0.6.5"]
+                         [org.clojure/core.memoize "0.5.9"]
+                         [org.clojure/data.priority.map "0.0.7"]
                          [org.clojure/tools.reader "1.0.0-beta2"]
                          [org.clojure/tools.namespace "0.2.10"]
 
@@ -29,6 +33,8 @@
                          [org.codehaus.janino/janino "2.7.8"]
                          [com.fasterxml.jackson.core/jackson-core "2.7.3"]
 
+                         [org.apache.httpcomponents/httpcore "4.4.4"]
+                         [org.apache.commons/commons-compress "1.10"]
                          [org.apache.commons/commons-exec "1.3"]
                          [commons-codec "1.10"]
                          [commons-lang "2.6"]
@@ -39,6 +45,7 @@
                          [clj-yaml "0.4.0"]
                          [me.raynes/fs "1.4.6"]
                          [slingshot "0.12.2"]
+                         [bidi "1.25.1"]
                          [cheshire "5.6.1"]
                          [compojure "1.5.0"]
                          [ring/ring-servlet "1.5.0"]
@@ -49,7 +56,10 @@
                          [beckon "0.1.1"]
                          [hiccup "1.0.5"]
                          [liberator "0.12.0"]
+                         [migratus "0.8.30"]
+                         [stencil "0.5.0"]
 
+                         [com.taoensso/encore "2.18.0"]
                          [prismatic/plumbing "0.4.2"]
                          [prismatic/schema "1.1.1"]
 
@@ -64,6 +74,8 @@
                          [puppetlabs/trapperkeeper-webserver-jetty9 ~tk-jetty-version]
                          [puppetlabs/trapperkeeper-webserver-jetty9 ~tk-jetty-version :classifier "test"]
                          [puppetlabs/trapperkeeper-authorization "0.7.0"]
+                         [puppetlabs/trapperkeeper-filesystem-watcher "1.0.1"]
+                         [puppetlabs/trapperkeeper-metrics "0.4.2"]
                          [puppetlabs/trapperkeeper-scheduler "0.0.1"]
                          [puppetlabs/trapperkeeper-status "0.5.0"]
                          [puppetlabs/ring-middleware "1.0.0"]
